@@ -4,7 +4,7 @@ module.exports = {
     "password": '123456',
     "database": "express-mvp-db",
     "host": "127.0.0.1",
-    "dialect": "postgresql",
+    "dialect": "postgres",
     "port": 5432
   },
   "test": {
