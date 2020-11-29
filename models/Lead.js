@@ -1,6 +1,6 @@
 'use strict';
 
-const { Sequelize } = require("sequelize/types");
+// const { Sequelize } = require("sequelize/types");
 
 module.exports = (Sequelize, DataTypes) => {
     var Lead = Sequelize.define('Lead', {
@@ -15,6 +15,5 @@ module.exports = (Sequelize, DataTypes) => {
             allowNull: false,
         },
     });
-
     return Lead;
 };
