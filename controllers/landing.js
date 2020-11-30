@@ -59,3 +59,6 @@ exports.delete_lead = function (req, res, body) {
         res.redirect('/leads')
     })
 }
+
+exports.delete_lead_json = function (req, res, body) {
+}
